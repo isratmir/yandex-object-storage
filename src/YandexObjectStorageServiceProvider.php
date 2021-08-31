@@ -26,7 +26,7 @@ class YandexObjectStorageServiceProvider extends ServiceProvider
                 ],
                 'region' => $config['region'],
                 'version' => 'latest',
-                'endpoint' => 'http://storage.yandexcloud.net/',
+                'endpoint' => 'https://storage.yandexcloud.net/',
 
             ]);
 
